@@ -96,12 +96,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	
-	<distributionManagement>
-		<repository>
-			<id>bintray-thmarx-maven-infoservice-client</id>
-			<name>thmarx-maven-infoservice-client</name>
-			<url>https://api.bintray.com/maven/thmarx/maven/infoservice-client</url>
-		</repository>
-	</distributionManagement>
 </project>
