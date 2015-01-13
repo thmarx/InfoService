@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>de.marx-labs.inforservice</groupId>
         <artifactId>infoservice-parent</artifactId>
-		<version>0.1.0</version>
+		<version>0.2.0</version>
 		<relativePath>../../pom.xml</relativePath>
 	</parent>
 
@@ -96,12 +96,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	
-	<distributionManagement>
-		<repository>
-			<id>bintray-thmarx-maven-infoservice-client</id>
-			<name>thmarx-maven-infoservice-client</name>
-			<url>https://api.bintray.com/maven/thmarx/maven/infoservice-client</url>
-		</repository>
-	</distributionManagement>
 </project>
