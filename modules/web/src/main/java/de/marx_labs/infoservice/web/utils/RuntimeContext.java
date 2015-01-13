@@ -14,15 +14,11 @@
 package de.marx_labs.infoservice.web.utils;
 
 
+import de.marx_labs.utilities.configuration.BaseRuntimeContext;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-import com.google.inject.Injector;
-import de.marx_labs.ads.base.configuration.BaseRuntimeContext;
-
-import de.marx_labs.ads.base.configuration.Configuration;
-import de.marx_labs.ads.base.configuration.Environment;
 
 public class RuntimeContext extends BaseRuntimeContext {
 	private static HashMap<String, HashMap<String, Object>> configuration = new HashMap<String, HashMap<String,Object>>();

@@ -24,15 +24,15 @@ import org.slf4j.LoggerFactory;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 
-import de.marx_labs.ads.base.configuration.Configuration;
-import de.marx_labs.ads.base.configuration.Environment;
-import de.marx_labs.ads.base.configuration.properties.Properties2;
 import de.marx_labs.infoservice.services.geo.IPLocationDB;
 import de.marx_labs.infoservice.services.geo.mapdb.MaxmindIpLocationMapDB;
 import de.marx_labs.infoservice.web.utils.Constants;
 import de.marx_labs.infoservice.web.utils.RuntimeContext;
 import de.marx_labs.infoservice.web.utils.caches.UpdatableCachedIpLocationDB;
 import de.marx_labs.infoservice.web.utils.config.DevelomentConfigModule;
+import de.marx_labs.utilities.configuration.Configuration;
+import de.marx_labs.utilities.configuration.Environment;
+import de.marx_labs.utilities.configuration.properties.Properties2;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;

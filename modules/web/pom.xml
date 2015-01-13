@@ -30,8 +30,8 @@
         </dependency>
 		
         <dependency>
-            <groupId>de.marx-labs.ads</groupId>
-            <artifactId>utilities.configuration</artifactId>
+            <groupId>de.marx-labs.utilities</groupId>
+            <artifactId>utilities-configuration</artifactId>
         </dependency>
 
         <dependency>

@@ -20,13 +20,13 @@ import com.google.inject.Provides;
 import com.google.inject.Singleton;
 
 
-import de.marx_labs.ads.base.configuration.Configuration;
 import de.marx_labs.infoservice.services.geo.IPLocationDB;
 import de.marx_labs.infoservice.services.geo.mapdb.MaxmindIpLocationMapDB;
 import de.marx_labs.infoservice.web.utils.Constants;
 
 import de.marx_labs.infoservice.web.utils.caches.CachedUserAgentStringParser;
 import de.marx_labs.infoservice.web.utils.caches.UpdatableCachedIpLocationDB;
+import de.marx_labs.utilities.configuration.Configuration;
 
 import java.io.File;
 import java.io.FileFilter;
